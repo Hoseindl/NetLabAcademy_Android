@@ -1,0 +1,21 @@
+
+:root{color-scheme:dark;--bg:#0a1220;--panel:#142235;--panel2:#1b2d43;--ink:#eef5ff;--muted:#b6c9df;--line:#36506c}
+html,body{background:#0a1220!important;color:#edf4ff!important}main,section,article{color:#edf4ff}
+.panel,.assessment-card,.question,.lab-card,.lab20-tile,.module,.reader-side,.lessonbody,.plan-panel,.plan-domain,.plan-note,.plan-status,.plan-tablewrap{background:#142235!important;color:#edf4ff!important;border-color:#3a536e!important}
+.module p,.assessment-card p,.question p,.panel p,.lab-card p,.lessonbody p{color:#d5e3f4!important}
+.module h3,.assessment-card h3,.panel h2,.panel h3,.plan-panel h2,.plan-panel h3,.question strong{color:#f4f8ff!important}
+.btn,button,.lessonbtn,.lab20-tile,.search-hit{color:#eef5ff!important;background:#223c59!important;border-color:#456485!important}
+.btn.primary,nav button.active,.lessonbtn.selected{background:#2868aa!important;color:white!important}
+.option,.assessment-note,.tip,.warning,.important,.definition,.correct,.wrong,.answer-review{color:#f0f5ff!important}
+.option{background:#233b54!important;border:1px solid #3a5674!important;margin:8px 0;padding:12px}
+.option label,.option span,.assessment-card label{color:#f2f7ff!important}
+input,select,textarea,.plan-field input,.plan-field select,.plan-field textarea{background:#0e1d30!important;color:#f5f9ff!important;border:1px solid #496483!important}
+input[type=radio],input[type=checkbox]{accent-color:#77b9ff}
+.muted,.tiny,.lab20-tile small{color:#b9cee5!important}
+.plan-table th,.plan-table td,.report-table th,.report-table td{border:1px solid #3a536d!important;color:#edf5ff!important}
+.report-table{width:100%;border-collapse:collapse;min-width:620px}.report-table th{background:#234564;color:#fff;padding:12px}.report-table td{background:#16283c;padding:12px;line-height:1.8;vertical-align:top}
+.report-table tr:nth-child(even) td{background:#1b3047}.report-preview{overflow-x:auto;margin-top:20px;border:1px solid #3a536d;border-radius:14px}
+.report-heading{color:#8ac6ff!important;margin-top:25px}.workshop-select{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:9px;margin:16px 0}.workshop-select button{min-height:76px;text-align:right;padding:12px;border-radius:12px}
+.workshop-select button.current{background:#2868aa!important}.workshop-field{display:block;margin:12px 0}.workshop-field select{display:block;width:100%;padding:12px;margin-top:5px}
+.workshop-check{padding:12px;border-radius:10px;margin:9px 0;border-right:4px solid #df718c;background:#3d2938;color:#fff}.workshop-check.ok{background:#163e37;border-color:#5ed4aa}
+@media(max-width:700px){.report-table{font-size:15px}.workshop-select{grid-template-columns:repeat(2,minmax(0,1fr))}.panel{padding:14px!important}}
